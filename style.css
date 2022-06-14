@@ -12,3 +12,33 @@ h1
 {
     color:green;
 }
+
+/*
+#id="AA" fait appel à l'id="AA" mais ne fonctionne que pour un élément dans la page
+*/
+
+/*
+on peut utiliser les balises <div></div> et <span></span> pour passer des id ou class, elles ne font rien d'autre
+La grande différence entre les éléments div et span va concerner ce qu’ils vont pouvoir contenir : un élément div 
+va pouvoir conteneur plusieurs éléments et va donc nous servir de conteneurs d’éléments tandis que l’élément span
+va nous servir de conteneur pour une partie du contenu d’un élément et va donc être utilisé à l’intérieur d’un élément.
+
+Cette différence est due au fait que les éléments div et span sont de niveau ou au « type » différents : l’élément div
+est un élément de niveau block tandis que l’élément span est un élément de niveau inline.
+*/
+
+/*
+On peut utiliser * au lieu de p ou h1 par exemple pour cibler toutes les balises
+
+Si on utilise h1+p on ciblera uniquement le premier paragraphe qui suit le h1
+
+Si on utilise h1 em on ciblera tous les em qui sont dans les h1
+
+Si on utilise p[attribut] on ciblera une balise qui pocède l'attribut
+
+Si on utilise p[title="b"] on ciblera une balise qui pocède l'attribut
+title forcément égal à b
+
+Si on utilise p[title*="b"] on ciblera une balise qui pocède l'attribut
+title qui contient b (title="dbc" par exemple)
+*/
