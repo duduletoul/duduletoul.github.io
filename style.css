@@ -1,9 +1,14 @@
 p
 {
-color: blue;    
+color: blue;    /* commentaire */
 }
 
 h1
 {
     color:brown;
+}
+
+.footer /*fait appel à la class="footer"*/
+{
+    color:green;
 }
