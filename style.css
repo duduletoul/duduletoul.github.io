@@ -64,10 +64,20 @@ text-align: left; center; right; justify;
 */
 
 /*
-Pour qu'une image soit habilée par le texte on peut lui donner la classe class="flottant"
+Pour qu'une image ou un bloc soit habilée par le texte on peut lui donner la classe class="flottant"
 
 .flottant
 {
     float: left; right; (le texte vient autour et l'image se trouve à gauche ou à droite
 }
+
+
+pour arrêter (en commençant le paragraphe suivant par exemple on lui donne
+la class="dessous"
+
+.dessous
+{
+    clear: both; right; left;    
+}
+
 */
