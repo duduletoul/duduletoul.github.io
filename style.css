@@ -47,7 +47,7 @@ title qui contient b (title="dbc" par exemple)
 /*
 font-size: 1.5em; (em est relatif, sinon px par exemple)
 
-font-family: Impact, "Times New Roman", Arial, Verdana;
+font-family: Impact, "Times New Roman", Arial, Verdana, sans-serif;
 (dans l'ordre de préférence) 
 
 @font-face
