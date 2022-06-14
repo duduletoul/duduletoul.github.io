@@ -1,6 +1,6 @@
 p
 {
-color: blue;    /* commentaire */
+    color: blue;    /* commentaire */
 }
 
 h1
@@ -14,7 +14,8 @@ h1
 }
 
 /*
-#id="AA" fait appel à l'id="AA" mais ne fonctionne que pour un élément dans la page
+#id="AA" fait appel à l'id="AA" mais ne fonctionne que pour un élément
+dans la page
 */
 
 /*
@@ -41,4 +42,32 @@ title forcément égal à b
 
 Si on utilise p[title*="b"] on ciblera une balise qui pocède l'attribut
 title qui contient b (title="dbc" par exemple)
+*/
+
+/*
+font-size: 1.5em; (em est relatif, sinon px par exemple)
+
+font-family: Impact, "Times New Roman", Arial, Verdana;
+(dans l'ordre de préférence) 
+
+@font-face
+{
+    permet de définir une autre police en la faisant télécharger au client
+}
+*/
+
+/*
+font-style: italic;
+text-decoration: underline; overline; line-through;
+font-weight: bold;
+text-align: left; center; right; justify;
+*/
+
+/*
+Pour qu'une image soit habilée par le texte on peut lui donner la classe class="flottant"
+
+.flottant
+{
+    float: left; right; (le texte vient autour et l'image se trouve à gauche ou à droite
+}
 */
